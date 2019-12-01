@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF72F9EC1FD2DA4D0071BA3C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF72F9EB1FD2DA4D0071BA3C /* main.m */; };
+		AF72FA1C1FD2E7470071BA3C /* ReadWriteThread.m in Sources */ = {isa = PBXBuildFile; fileRef = AF72FA191FD2E7470071BA3C /* ReadWriteThread.m */; };
+		AF72FA1D1FD2E7470071BA3C /* Server.m in Sources */ = {isa = PBXBuildFile; fileRef = AF72FA1B1FD2E7470071BA3C /* Server.m */; };
+		AF72FA201FD2E8BF0071BA3C /* ChatMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = AF72FA1F1FD2E8BF0071BA3C /* ChatMessage.m */; };
+		AF72FA231FD2EA790071BA3C /* CharUser.m in Sources */ = {isa = PBXBuildFile; fileRef = AF72FA221FD2EA790071BA3C /* CharUser.m */; };
+		AF72FA261FD2EBFA0071BA3C /* ChatSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = AF72FA251FD2EBFA0071BA3C /* ChatSingleton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AF72F9E61FD2DA4D0071BA3C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AF72F9E81FD2DA4D0071BA3C /* ChatServer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ChatServer; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF72F9EB1FD2DA4D0071BA3C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AF72FA181FD2E7470071BA3C /* ReadWriteThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadWriteThread.h; sourceTree = "<group>"; };
+		AF72FA191FD2E7470071BA3C /* ReadWriteThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReadWriteThread.m; sourceTree = "<group>"; };
+		AF72FA1A1FD2E7470071BA3C /* Server.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Server.h; sourceTree = "<group>"; };
+		AF72FA1B1FD2E7470071BA3C /* Server.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Server.m; sourceTree = "<group>"; };
+		AF72FA1E1FD2E8BF0071BA3C /* ChatMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatMessage.h; sourceTree = "<group>"; };
+		AF72FA1F1FD2E8BF0071BA3C /* ChatMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatMessage.m; sourceTree = "<group>"; };
+		AF72FA211FD2EA790071BA3C /* CharUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharUser.h; sourceTree = "<group>"; };
+		AF72FA221FD2EA790071BA3C /* CharUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CharUser.m; sourceTree = "<group>"; };
+		AF72FA241FD2EBF90071BA3C /* ChatSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatSingleton.h; sourceTree = "<group>"; };
+		AF72FA251FD2EBFA0071BA3C /* ChatSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatSingleton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF72F9E51FD2DA4D0071BA3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF72F9DF1FD2DA4D0071BA3C = {
+			isa = PBXGroup;
+			children = (
+				AF72F9EA1FD2DA4D0071BA3C /* ChatServer */,
+				AF72F9E91FD2DA4D0071BA3C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF72F9E91FD2DA4D0071BA3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF72F9E81FD2DA4D0071BA3C /* ChatServer */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF72F9EA1FD2DA4D0071BA3C /* ChatServer */ = {
+			isa = PBXGroup;
+			children = (
+				AF72F9EB1FD2DA4D0071BA3C /* main.m */,
+				AF72FA1A1FD2E7470071BA3C /* Server.h */,
+				AF72FA1B1FD2E7470071BA3C /* Server.m */,
+				AF72FA181FD2E7470071BA3C /* ReadWriteThread.h */,
+				AF72FA191FD2E7470071BA3C /* ReadWriteThread.m */,
+				AF72FA1E1FD2E8BF0071BA3C /* ChatMessage.h */,
+				AF72FA1F1FD2E8BF0071BA3C /* ChatMessage.m */,
+				AF72FA211FD2EA790071BA3C /* CharUser.h */,
+				AF72FA221FD2EA790071BA3C /* CharUser.m */,
+				AF72FA241FD2EBF90071BA3C /* ChatSingleton.h */,
+				AF72FA251FD2EBFA0071BA3C /* ChatSingleton.m */,
+			);
+			path = ChatServer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF72F9E71FD2DA4D0071BA3C /* ChatServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF72F9EF1FD2DA4E0071BA3C /* Build configuration list for PBXNativeTarget "ChatServer" */;
+			buildPhases = (
+				AF72F9E41FD2DA4D0071BA3C /* Sources */,
+				AF72F9E51FD2DA4D0071BA3C /* Frameworks */,
+				AF72F9E61FD2DA4D0071BA3C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChatServer;
+			productName = ChatServer;
+			productReference = AF72F9E81FD2DA4D0071BA3C /* ChatServer */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF72F9E01FD2DA4D0071BA3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = l;
+				TargetAttributes = {
+					AF72F9E71FD2DA4D0071BA3C = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AF72F9E31FD2DA4D0071BA3C /* Build configuration list for PBXProject "ChatServer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AF72F9DF1FD2DA4D0071BA3C;
+			productRefGroup = AF72F9E91FD2DA4D0071BA3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF72F9E71FD2DA4D0071BA3C /* ChatServer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF72F9E41FD2DA4D0071BA3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF72F9EC1FD2DA4D0071BA3C /* main.m in Sources */,
+				AF72FA201FD2E8BF0071BA3C /* ChatMessage.m in Sources */,
+				AF72FA1D1FD2E7470071BA3C /* Server.m in Sources */,
+				AF72FA231FD2EA790071BA3C /* CharUser.m in Sources */,
+				AF72FA1C1FD2E7470071BA3C /* ReadWriteThread.m in Sources */,
+				AF72FA261FD2EBFA0071BA3C /* ChatSingleton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AF72F9ED1FD2DA4D0071BA3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AF72F9EE1FD2DA4D0071BA3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AF72F9F01FD2DA4E0071BA3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AF72F9F11FD2DA4E0071BA3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF72F9E31FD2DA4D0071BA3C /* Build configuration list for PBXProject "ChatServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF72F9ED1FD2DA4D0071BA3C /* Debug */,
+				AF72F9EE1FD2DA4D0071BA3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF72F9EF1FD2DA4E0071BA3C /* Build configuration list for PBXNativeTarget "ChatServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF72F9F01FD2DA4E0071BA3C /* Debug */,
+				AF72F9F11FD2DA4E0071BA3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF72F9E01FD2DA4D0071BA3C /* Project object */;
+}
